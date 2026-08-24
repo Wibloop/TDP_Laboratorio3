@@ -74,13 +74,16 @@ Snapshot consolidarMejorSolucion(const Snapshot& actual, const SolveResult& best
 }
 
 void printMenu() {
-    cout << "\nOptimizador Multi-Banda" << endl;
+    cout << "\n============================================================" << endl;
+    cout << "RECONFIGURACION DE MICROSERVICIOS ANTE FALLAS (RMF)" << endl;
+    cout << "============================================================" << endl;
     cout << "1. Cargar caso .rdm" << endl;
     cout << "2. Mostrar y validar estado inicial" << endl;
     cout << "3. Ejecutar una epoca con A0, H1, H2 y R" << endl;
-    cout << "4. Ejecutar la secuencia completa (Simulacion de Epocas)" << endl;
-    cout << "5. Activar/Desactivar Exportacion CSV" << endl;
+    cout << "4. Ejecutar la secuencia completa" << endl;
+    cout << "5. Exportar resultados CSV" << endl;
     cout << "6. Salir" << endl;
+    cout << "============================================================" << endl;
     cout << "Opcion: ";
 }
 

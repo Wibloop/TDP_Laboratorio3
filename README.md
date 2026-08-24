@@ -46,16 +46,16 @@ Una vez compilado, ejecuta el simulador mediante el binario principal:
 Al iniciar, la consola desplegara un menu interactivo numerico:
 
 1. **Cargar caso .rdm:**
-   El programa solicitara la ruta relativa de la instancia. 
-   - *Ejemplo de entrada:* `instances/demo_fallas.rdm`
+   El programa solicitara la ruta relativa de la instancia (ejemplo: `instances/demo_fallas.rdm`)
 2. **Mostrar y validar estado inicial:**
-   Despliega en consola el snapshot actual (t=0) con las capacidades, demandas y un mapeo del estado operativo de cada nodo.
-3. **Ejecutar una epoca (H1, H2, A0, R):**
-   Aplica eventos deterministas sobre los nodos, y evalua el escenario estatico actual con las 4 estrategias.
+   Despliega en consola el snapshot actual en t=0 con las capacidades, demandas y estado de cada nodo
+3. **Ejecutar una epoca con A0, H1, H2 y R:**
+   Aplica eventos deterministas sobre los nodos y evalua el escenario actual con las 4 estrategias
 4. **Ejecutar la secuencia completa:**
-   Evalua escenarios dinamicamente, integrando eventos en multiples epocas temporales. Transfiere consolidaciones de p_i^{t+1} basadas en la mejor solucion factible generada.
-5. **Exportacion CSV:**
-   Habilita la escritura en disco (`results/metricas.csv`). Cada ejecucion posterior generara una traza de rendimiento.
-6. **Salir.**
+   Evalua escenarios dinamicamente integrando eventos en multiples epocas temporales y transfiriendo consolidaciones
+5. **Exportar resultados CSV:**
+   Habilita o deshabilita la escritura en disco (`results/metricas.csv`) para registrar trazas de rendimiento
+6. **Salir:**
+   Cierra la sesion del simulador
 
-*Nota:* Asegurese de habilitar la opcion (5) si desea extraer mediciones como runtime, gaps o iteraciones LP
+*Nota:* Asegurese de habilitar la opcion 5 si desea extraer mediciones como runtime, gaps o iteraciones LP
