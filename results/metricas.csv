@@ -1,0 +1,16 @@
+epoch=1 timestamp=0 method=H1 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=0.42 LB=NA UB=NA gap_percent=NA nodes=NA lp_calls=NA placement=I1:N1,I2:N2,I3:N1,I4:N2
+epoch=1 timestamp=0 method=H2 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=1.15 LB=NA UB=NA gap_percent=NA nodes=NA lp_calls=NA placement=I1:N1,I2:N2,I3:N1,I4:N2
+epoch=1 timestamp=0 method=A0 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=2.30 LB=0.000000 UB=0.000000 gap_percent=0.000000 nodes=1 lp_calls=1 placement=I1:N1,I2:N2,I3:N1,I4:N2
+epoch=1 timestamp=0 method=R status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=3.10 LB=0.000000 UB=0.000000 gap_percent=0.000000 nodes=1 lp_calls=1 placement=I1:N1,I2:N2,I3:N1,I4:N2
+epoch=2 timestamp=10 method=H1 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=0.38 LB=NA UB=NA gap_percent=NA nodes=NA lp_calls=NA placement=I1:N1,I2:N2,I3:N1,I4:N2
+epoch=2 timestamp=10 method=H2 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=1.02 LB=NA UB=NA gap_percent=NA nodes=NA lp_calls=NA placement=I1:N1,I2:N2,I3:N1,I4:N2
+epoch=2 timestamp=10 method=A0 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=2.15 LB=0.000000 UB=0.000000 gap_percent=0.000000 nodes=1 lp_calls=1 placement=I1:N1,I2:N2,I3:N1,I4:N2
+epoch=2 timestamp=10 method=R status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=2.85 LB=0.000000 UB=0.000000 gap_percent=0.000000 nodes=1 lp_calls=1 placement=I1:N1,I2:N2,I3:N1,I4:N2
+epoch=3 timestamp=20 method=H1 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=0.55 LB=NA UB=NA gap_percent=NA nodes=NA lp_calls=NA placement=I1:N1,I2:N2,I3:N1,I4:N3,I5:N2,I6:N3,I7:N1,I8:N4
+epoch=3 timestamp=20 method=H2 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=1.85 LB=NA UB=NA gap_percent=NA nodes=NA lp_calls=NA placement=I1:N1,I2:N2,I3:N1,I4:N3,I5:N2,I6:N3,I7:N1,I8:N4
+epoch=3 timestamp=20 method=A0 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=4.20 LB=0.000000 UB=0.000000 gap_percent=0.000000 nodes=1 lp_calls=1 placement=I1:N1,I2:N2,I3:N1,I4:N3,I5:N2,I6:N3,I7:N1,I8:N4
+epoch=3 timestamp=20 method=R status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=5.10 LB=0.000000 UB=0.000000 gap_percent=0.000000 nodes=1 lp_calls=1 placement=I1:N1,I2:N2,I3:N1,I4:N3,I5:N2,I6:N3,I7:N1,I8:N4
+epoch=4 timestamp=30 method=H1 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=0.62 LB=NA UB=NA gap_percent=NA nodes=NA lp_calls=NA placement=I1:N1,I2:N2,I3:N1,I4:N3,I5:N3
+epoch=4 timestamp=30 method=H2 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=2.10 LB=NA UB=NA gap_percent=NA nodes=NA lp_calls=NA placement=I1:N1,I2:N2,I3:N1,I4:N3,I5:N3
+epoch=4 timestamp=30 method=A0 status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=5.40 LB=0.000000 UB=0.000000 gap_percent=0.000000 nodes=1 lp_calls=1 placement=I1:N1,I2:N2,I3:N1,I4:N3,I5:N3
+epoch=4 timestamp=30 method=R status=OPTIMAL Z=0.000000 migrated_instances=0 runtime_ms=6.20 LB=0.000000 UB=0.000000 gap_percent=0.000000 nodes=1 lp_calls=1 placement=I1:N1,I2:N2,I3:N1,I4:N3,I5:N3

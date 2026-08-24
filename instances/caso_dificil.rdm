@@ -1,0 +1,20 @@
+RDM_VERSION 5
+
+# Caso de prueba de alta dificultad con restricciones de capacidad ajustadas
+# Infraestructura con margen de holgura reducido
+NODE N1 80.0 OPERATIONAL 1.0
+NODE N2 70.0 DEGRADED 0.5
+NODE N3 60.0 OPERATIONAL 1.0
+NODE N4 50.0 OFFLINE 0.0
+
+# Declaracion de microservicios en competencia
+MICROSERVICE M1
+MICROSERVICE M2
+MICROSERVICE M3
+
+# Conjunto de instancias con demandas cercanas al limite
+INSTANCE I1 M1 N1 30.0 10.0
+INSTANCE I2 M1 N2 30.0 10.0
+INSTANCE I3 M2 N1 35.0 15.0
+INSTANCE I4 M2 N3 35.0 15.0
+INSTANCE I5 M3 N3 25.0 8.0

@@ -1,0 +1,17 @@
+RDM_VERSION 5
+
+# Caso de prueba de tamano reducido para validaciones rapidas
+# Nodos con capacidades diferenciadas
+NODE N1 100.0 OPERATIONAL 1.0
+NODE N2 100.0 OPERATIONAL 1.0
+NODE N3 80.0 DEGRADED 0.5
+
+# Microservicios basicos
+MICROSERVICE M1
+MICROSERVICE M2
+
+# Instancias asignadas inicialmente
+INSTANCE I1 M1 N1 30.0 10.0
+INSTANCE I2 M1 N2 30.0 10.0
+INSTANCE I3 M2 N1 25.0 8.0
+INSTANCE I4 M2 N2 25.0 8.0
